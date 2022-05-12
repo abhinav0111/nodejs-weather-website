@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <link rel="stylesheet" href="/public/css/styles.css">
+<style>
+    body{
+    font-family: arial;
+    margin: 0 auto;
+    padding: 0 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: rgb(175, 53, 53);
+    font-size: 60px;
+}
+
+img{
+    width:250px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    padding: 20px;
+    font-size: 20px;
+}
+p{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+</style>
+</head>
+<body style="font-family: arial;">
+<div class="class main-content">
+     {{>header}}
+</div>
+   
+    <h1 style="text-align: center;">{{errormsg}}</h1>
+    {{>footer}}
+</body>
+</html>
